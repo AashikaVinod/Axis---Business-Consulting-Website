@@ -358,6 +358,15 @@ footer a {
 }
 
 @media screen and (max-width: 768px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    main {
+        padding: 20px;
+    }
+
     header img {
         float: none;
         display: block;
@@ -374,8 +383,13 @@ footer a {
         margin: 10px 0;
     }
 
+    .hero {
+        padding: 80px 20px;
+    }
+
     .hero-box {
         width: 100%;
+        padding: 20px;
     }
 
     .column,
@@ -391,4 +405,24 @@ footer a {
         margin-bottom: 20px;
         text-align: left;
     }
+
+    .case-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .contact-box {
+        width: 100%;
+        margin: 20px 0;
+        padding: 20px;
+    }
+
+    video {
+        height: auto;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
 }
